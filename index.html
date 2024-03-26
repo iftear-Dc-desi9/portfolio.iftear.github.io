@@ -2,809 +2,778 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Site</title>
-    <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="featured.css">
-    <link rel="stylesheet" href="ending.css">
-    <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-   <script src="jquery.counterup.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Site</title>
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="featured.css">
+  <link rel="stylesheet" href="ending.css">
+  <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="jquery.counterup.min.js"></script>
 </head>
 
 <body>
-    <main>
-        <section class="main">
+  <main>
+    <section class="main">
+      <nav>
+        <div class="h-nav" id="t-nav-sticky">
+          <div class="topnav">
+            <a class="logo" href="#">Iftear</a>
+            <div class="linkbox topnav-right" id='link-box1'>
+              <a class="navlink activelink" href="#home">Home</a>
+              <a class="navlink" href="#about">About</a>
+              <a class="navlink" href="#services">Skills</a>
+              <a class="navlink" href="#portfolio">Portfolio</a>
+              <a class="navlink" href="#news">Experience</a>
+              <a class="navlink" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="v-nav">
+          <div class="topnav">
+            <div class="slide-down">
+              <a class="logo" href="#">Iftear</a>
+              <p class="open-icon"><i class="fa fa-bars"></i>
+              </p>
+            </div>
+            <div class="topnav-down" id="topnav-down">
+              <ul id='link-box2'>
+                <li><a class="navlink activelink1" href="#home">Home</a></li>
+                <li><a class="navlink " href="#about">About</a></li>
+                <li><a class="navlink" href="#services">Skills</a></li>
+                <li><a class="navlink" href="#portfolio">Portfolio</a></li>
+                <li><a class="navlink" href="#news">Experience</a></li>
+                <li><a class="navlink" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-box-intro" id="home">
+
+        <div class="main-box">
+          <img src="IMG_20201220_194252_Bokeh (3).jpg" alt="my-photo" class="main-box-image" width="100%" height='auto'>
+          <div class="main-intro">
+            <h1>IFTEAR <span class="name-part-2">HOSSAIN</span> </h1>
+            <h4>I'm a <span class="animate-text"></span> </h4>
+            <div class="arrow-sec">
+              <span class="arrow-part">
+                <a href="#about"><i class="fa fa-angle-double-down"></i></a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <div class="space"></div>
+    <section class="portfolio">
+      <div class="sec-header">
+        <h6>Portfolio</h6>
+        <h1>Featured Works</h1>
+      </div>
+      <article class="wrapper" id='portfolio'>
         <nav>
-            <div class="h-nav"id="t-nav-sticky">
-                <div class="topnav">
-                    <a class="logo" href="#">Iftear</a>
-                    <div class="linkbox topnav-right"id='link-box1'>
-                        <a class="navlink activelink" href="#home">Home</a>
-                        <a class="navlink" href="#about">About</a>
-                        <a class="navlink" href="#services">Skills</a>
-                        <a class="navlink"href="#portfolio">Portfolio</a>
-                        <a class="navlink" href="#news">Experience</a>
-                        <a class="navlink" href="#contact">Contact</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="v-nav">
-                <div class="topnav">
-                    <div class="slide-down">
-                        <a class="logo" href="#">Iftear</a>
-                        <p class="open-icon"><i class="fa fa-bars"></i>
-                        </p>
-                    </div>
-                    <div class="topnav-down" id="topnav-down">
-                        <ul id='link-box2'>
-                            <li><a class="navlink activelink1" href="#home">Home</a></li>
-                            <li><a class="navlink " href="#about">About</a></li>
-                            <li><a class="navlink" href="#services">Skills</a></li>
-                            <li><a class="navlink" href="#portfolio">Portfolio</a></li>
-                            <li><a class="navlink" href="#news">Experience</a></li>
-                            <li><a class="navlink" href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        
-            <div class="main-box-intro"id="home">
-
-                <div class="main-box">
-                    <img src="IMG_20201220_194252_Bokeh (3).jpg" alt="my-photo" class="main-box-image" width="100%"
-                        height='auto'>
-                    <div class="main-intro">
-                        <h1>IFTEAR <span class="name-part-2">HOSSAIN</span> </h1>
-                        <h4>I'm a <span class="animate-text"></span> </h4>
-                        <div class="arrow-sec">
-                            <span class="arrow-part">
-                                <a href="#about"><i class="fa fa-angle-double-down"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <div class="space"></div>
-        <section class="portfolio">
-            <div class="sec-header">
-                <h6>Portfolio</h6>
-                <h1>Featured Works</h1>
-            </div>
-            <article class="wrapper"id='portfolio'>
-                <nav>
-                    <div class="items">
-                        <span class="item active" data-name="all">All</span>
-                        <span class="item" data-name="Web-Designs">Web Design</span>
-                        <span class="item" data-name="Graphic-Designs">Graphic Design</span>
-                        <span class="item" data-name="Digital-marketing">Digital Marketing</span>
-                        <!--<span class="item" data-name="camera">Photoshop</span>
+          <div class="items">
+            <span class="item active" data-name="all">All</span>
+            <span class="item" data-name="Web-Designs">Web Designs</span>
+            <span class="item" data-name="Graphic-Designs">Graphic Designs</span>
+            <span class="item" data-name="Digital-marketing">Digital Marketing</span>
+            <!--<span class="item" data-name="camera">Photoshop</span>
                         <span class="item" data-name="headphone">Headphone</span>-->
-                    </div>
-                </nav>
-                <div class="gallery"data-aos="fade-up">
-                    <div class="image" data-name="Web-Designs">
-                        <span>
-                            <img src="Web-page-3.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Web-Designs">
-                        <span>
-                            <img src="Web-page-2.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Web-Designs">
-                        <span>
-                            <img src="Web-page-1.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Graphic-Designs">
-                        <span>
-                            <img src="Post-Design-1.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Graphic-Designs">
-                        <span>
-                            <img src="Post-Design-2.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Graphic-Designs">
-                        <span>
-                            <img src="Post-Design-3.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Digital-marketing">
-                        <span>
-                            <img src="Data-entry-1.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Digital-marketing">
-                        <span>
-                            <img src="Social-media-management.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
-                    <div class="image" data-name="Digital-marketing">
-                        <span>
-                            <img src="Record-maintanance.jpg"alt=""width="100%"height="auto">
-                        </span>
-                    </div>
+          </div>
+        </nav>
+        <div class="gallery" data-aos="fade-up">
+          <div class="image" data-name="Web-Designs">
+            <span>
+              <img src="Web-page-3.jpg" alt="" width="100%" height="auto">
+            </span>
+            .. </div>
+          <div class="image" data-name="Web-Designs">
+            <span>
+              <img src="Web-page-2.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
+          <div class="image" data-name="Web-Designs">
+            <span>
+              <img src="Web-page-1.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
+          <div class="image" data-name="Graphic-Designs">
+            <span>
+              <img src="Post-Design-1.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
+          <div class="image" data-name="Graphic-Designs">
+            <span>
+              <img src="Post-Design-2.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
+          <div class="image" data-name="Graphic-Designs">
+            <span>
+              <img src="Post-Design-3.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
+          <div class="image" data-name="Digital-marketing">
+            <span>
+              <img src="Data-entry-1.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
+          <div class="image" data-name="Digital-marketing">
+            <span>
+              <img src="Social-media-management.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
+          <div class="image" data-name="Digital-marketing">
+            <span>
+              <img src="Record-maintanance.jpg" alt="" width="100%" height="auto">
+            </span>
+          </div>
 
-                    <div class="image" data-name="Digital-marketing">
-                        <span>
-                            <video width="100%" height="auto" controls>
-                                <source src="Super-market-ads.mp4" type="video/mp4">
-                            </video>
-                        </span>
-                    </div>
-                    <div class="image" data-name="Digital-marketing">
-                        <span>
-                            <video width="100%" height="auto" controls>
-                                <source src="Hotel-ads.mp4" type="video/mp4">
-                            </video>
-                        </span>
-                    </div>
-                    <div class="image" data-name="Digital-marketing">
-                        <span>
-                            <video width="100%" height="auto" controls>
-                                <source src="Resturant-ads.mp4" type="video/mp4">
-                            </video>
-                        </span>
-                    </div>
-                </div>
-            </article>
-            <article class="preview-box">
-                <div class="preview-details">
-                    <span class="preview-title">Category: <p></p></span>
-                    <i class="icon fa fa-times"></i>
-                </div>
-                <div class="image-box">
-                    <img src="" alt=""width="100%"height="auto">
-                </div>
-            </article>
-            <div class="shadow"></div>
-        </section>
+          <div class="image" data-name="Digital-marketing">
+            <span>
+              <video width="100%" height="auto" controls>
+                <source src="Super-market-ads.mp4" type="video/mp4">
+              </video>
+            </span>
+          </div>
+          <div class="image" data-name="Digital-marketing">
+            <span>
+              <video width="100%" height="auto" controls>
+                <source src="Hotel-ads.mp4" type="video/mp4">
+              </video>
+            </span>
+          </div>
+          <div class="image" data-name="Digital-marketing">
+            <span>
+              <video width="100%" height="auto" controls>
+                <source src="Resturant-ads.mp4" type="video/mp4">
+              </video>
+            </span>
+          </div>
+        </div>
+      </article>
+      <article class="preview-box">
+        <div class="preview-details">
+          <span class="preview-title">Category: <p></p></span>
+          <i class="icon fa fa-times"></i>
+        </div>
+        <div class="image-box">
+          <img src="" alt="" width="100%" height="auto">
+        </div>
+      </article>
+      <div class="shadow"></div>
+    </section>
 
-        <div class="space"></div>
-        <section class='news'>
-            <div class="sec-header">
-              <h6>Best From Me</h6>
-              <h1>Click to view Live websites</h1>
+    <div class="space"></div>
+    <section class='news'>
+      <div class="sec-header">
+        <h6>Best From Me</h6>
+        <h1>Projects</h1>
+      </div>
+
+      <article class="news-container" id="portfolio">
+
+        <div class="news-content-box" data-aos="fade-left">
+
+          <div class="content">
+            <a href="https://iftear-dc-desi9.github.io/oitizzoresturant.github.io/"target="_blank"class="project-link">
+            <div class="content-img ">
+              <img src="Oitizzo-website.jpg" alt="" width='100%' height='auto'>
             </div>
-        
-            <article class="news-container"id="portfolio">
-        
-              <div class="news-content-box"data-aos="fade-left">
-                
-                <div class="content"id="btn1">
-                  <div class="content-img ">
-                    <img
-                      src="Oitizzo-website.jpg"
-                      alt="" width='100%' height='auto'>
-                  </div>
-                  <div class="content-text">
-                    <p ><a href="https://iftear-dc-desi9.github.io/oitizzoresturant.github.io/">OITIZZO</a></p>
-                  <span>Resturant Website</span>
-                  </div>
-                  
-                </div>
-              </div>
-              <div class="news-content-box"data-aos="fade-right">
-                <div class="content"id="btn2">
-                  <div class="content-img">
-                    <img
-                      src="Furniture-website.jpg"
-                      alt="" width='100%' height='auto'>
-                  </div>
-                  <div class="content-text">
-                    <p><a href="https://iftear-dc-desi9.github.io/furniture.dc_desi9.github.io/">Furniture Arena</a></p>
-                  <span>Furniture Website</span>
-                  </div>
-                  
-                </div>
-              </div>
-              <div class="news-content-box"data-aos="fade-left">
-                <div class="content"id="btn3">
-                  <div class="content-img">
-                    <img src="Shoppy-website.jpg" alt=""
-                      width='100%' height='auto'>
-                  </div>
-                  <div class="content-text">
-                     <p><a href="https://iftear-dc-desi9.github.io/Shoppy.github.io/">Shoopy</a></p>
-                  <span>Fashion Website</span>
-                  </div>
-                 
-                </div>
-              </div>
-        
-              <div class="modal1" id="modal1">
-                <div class="modal-container">
-                  <span class='modal-close1'><i class="fa fa-times"></i></span>
-        
-                  <div class="modal-content">
-                    <div class="imgbox">
-                      <img src="Oitizzo-website.jpg" alt=""width="100%"height="auto">
-                    </div>
-                    <div class="modal-details">
-                      <h2><a href="https://iftear-dc-desi9.github.io/oitizzoresturant.github.io/">OITIZZO</a></h2>
-                  <p>Resturant Website</p> 
-                </div>
-                  <div class="modal-text">
-                    <p><b>Languages Used In This website:</b></p>
-                  <p>Html</p>
-                  <p>CSS</p>
-                  <p>JS</p>
-                  <br>
-                   </div>
-                  </div>
-        
-                </div>
-              </div>
-              <div class="modal2" id="modal2">
-                <div class="modal-container">
-                  <span class="modal-close2"><i class="fa fa-times"></i></span>
-        
-                  <div class="modal-content">
-                    <div class="imgbox">
-                      <img src="Furniture-website.jpg" alt=""width="100%"height="auto">
-                    </div>
-                    <div class="modal-details">
-                      <h2><a href="https://iftear-dc-desi9.github.io/furniture.dc_desi9.github.io/">Furniture Arena</a></h2>
-                  <p>Furniture Website</p>
-                </div>
-                <div class="modal-text">
-                    <p><b>Languages Used In This website:</b></p>
-                    <p>Html</p>
-                    <p>CSS</p>
-                    <p>JS</p><br>
-                    </div>
-                  </div>
-        
-                </div>
-              </div>
-              <div class="modal3" id="modal3">
-                <div class="modal-container">
-                  <span class="modal-close3"><i class="fa fa-times"></i></span>
-                  <div class="modal-content">
-                    
-                    <div class="imgbox">
-                      <img src="Shoppy-website.jpg" alt=""width="100%"height="auto">
-                    </div>
-                    <div class="modal-details">
-                      <h2><a href="https://iftear-dc-desi9.github.io/Shoppy.github.io/">Shoopy</a></h2>
-                  <p>Fashion Website</p>
-                </div>
-                  <div class="modal-text">
-                    <p><b>Languages Used In This website:</b></p>
-                  <p>Html</p>
-                  <p>CSS</p>
-                  <p>BOOTSTRAP</p>
-                  <p>JS</p>
-                    <br>
-                    </div>
-                  </div>
-        
-                </div>
-              </div>
-        
-            </article>
-          </section>
-
-        <div class="space"></div>
-        <section class="service">
-            <div class="sec-header">
-                <h6>Skills</h6>
-                <h1>Soft Skills</h1>
+            <div class="content-text">
+              <p>OITIZZO</p>
+              <span>Resturant Website</span><br>
+              <span>Language: HTML| CSS| JS</span>
             </div>
-            <article class="service-sec"id="services">
-                <div class="services-container">
-                    
-                    <div class="services-box"data-aos="fade-left">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Communication.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Communication</h5>
-                            <p></p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-up">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Customer -service.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Customer Service</h2>
-                            <p></p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-left">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Negotiation.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Negotiation</h5>
-                            <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-up">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Adaptability.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Adaptablity</h5>
-                            <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-left">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Creative-thinking.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Creative Thinking</h5>
-                            <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-down">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Under-pressure.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Under Pressure Handling</h5>
-                            <p></p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </article>
-            
-        </section>
-        <section class="service">
-            <div class="sec-header">
-                <h1>Tech Skills</h1>
+          </a>
+          </div>
+        </div>
+        <div class="news-content-box" data-aos="fade-right">
+          
+          <div class="content">
+            <a href="https://iftear-dc-desi9.github.io/furniture.dc_desi9.github.io/"target="_blank"class="project-link">
+            <div class="content-img">
+              <img src="Furniture-website.jpg" alt="" width='100%' height='auto'>
             </div>
-            <article class="service-sec"id="services">
-                <div class="services-container">
-                    
-                    <div class="services-box"data-aos="fade-left">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Social-media-managent.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Social Media Platform</h5>
-                            <p>Facebook| Instagram| YouTube</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-up">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="adobe-photoshop.png" alt="services5" class="service-image" height="auto">
-                            <h5>Graphic Design</h2>
-                            <p>Adobe Express| Canva</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-left">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="coding.png" alt="services5" class="service-image" height="auto">
-                            <h5>Web Design</h5>
-                            <p>HTML| CSS| BOOTSTRAP| JS| JQ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-up">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Record-maintanence.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>MS Office</h5>
-                            <p>MS Word| MS Excel</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-left">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Adobe-xd.jpg" alt="services5" class="service-image" height="auto">
-                            <h5>Adobe Xd</h5>
-                            <p>UI/UX Design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services-box"data-aos="fade-down">
-                        <div class="ser-details">
-                            <div class="ser-text">
-                                <img src="Seo-image.png" alt="services5" class="service-image" height="auto">
-                            <h5>SEO</h5>
-                            <p>Basic knowledge</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </article>
-            <div class="start-now"><p>Are you interested in working with me? <a href="#about"
-                class="details-link">Let's started now?</a> </p></div>
-        </section>
-        <div class="space"></div>
-        <section class="bio">
-            <div class="sec-header">
-                <h6>Biography</h6>
-                <h1>About Me</h1>
+            <div class="content-text">
+              <p>Furniture Arena</p>
+              <span>Furniture Website</span><br>
+              <span>Language: HTML| CSS| JS</span>
             </div>
-            <div class="biography"id='about'>
+          </a>
 
-                <div class="my-image-box">
-                    <div class="image-border">
-                        <img src="IMG_20201220_194252_Bokeh (3).jpg" alt="my-image" width="100%" height="auto" class="my-image">
-                    </div>
-                </div>
-                <div class="biography-box">
+          </div>
+        </div>
+        <div class="news-content-box" data-aos="fade-left">
+          <div class="content">
+            <a href="https://iftear-dc-desi9.github.io/Shoppy.github.io/"target="_blank"class="project-link">
+            <div class="content-img">
+              <img src="Shoppy-website.jpg" alt="" width='100%' height='auto'>
+            </div>
+            <div class="content-text">
+              <p>Shoopy</p>
+              <span>Fashion Website</span><br>
+              <span>Language: HTML| CSS| BOOTSTRAP4| JS</span>
+            </div>
+          </a>
 
-                    <div class="my-info">
-                        <h4>An Experience & Consistant <span class="animate-text2"></span> </h4>
-                        <p>I am an experienced website designer, digital marketer, data entry, and sales person. With a strong portfolio in each field, I have been helping businesses and individuals around the world to achieve their goals and objectives. My track record speaks for itself, with meaningful projects delivered on time and within budget. I have a passion for marketing, technology, and customer service. With the ability to take complex concepts and turn them into simple solutions, I am confident I can help your business succeed. I am always looking to further my knowledge and stay up to date on the latest trends in the industry.</p>
-                    </div>
-                    <div class="my-contact-box">
-                        <ul>
-                            <li><i class="fa fa-gift"></i> <span class="details">Birthday: 21.04.1999</span>
-                            </li>
-                            <li><i class="fa fa-calendar"></i> <span class="details">Nationality: Bangladeshi</span>
-                            </li>
-                            <li><i class="fa fa-map-marker"></i> <span class="details">Location: <a href="#" class="details-link">Al Attiyah, Doha, Qatar</a></span>
-                            </li>
-                            <li><i class="fa fa-gamepad"></i> <span class="details">Interests: Play station,
-                                    Movie</span>
-                            </li>
-                            <li><i class="fa fa-university"></i> <span class="details">Study: <a href="#"
-                                        class="details-link">National University, Bangladesh</a></span>
-                            </li>
-                            <li><i class="fa fa-graduation-cap"></i> <span class="details">Degree: BBA Hons
-                                    (2020-2023)</span>
-                            </li>
-                            <li><i class="fa fa-envelope"></i> <span class="details">Mail: <a href="#"
-                                        class="details-link">iftearmishal911@gmail.com</a></span>
-                            </li>
-                            <li><i class="fa fa-phone"></i> <span class="details">Phone: <a href="#"
-                                        class="details-link">+974 30382016</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--<button class="download-btn">
+          </div>
+        </div>
+        <div class="news-content-box" data-aos="fade-right">
+          <div class="content">
+            <a href="https://iftear-dc-desi9.github.io/john_silver-langing-page.github.io/"target="_blank"class="project-link">
+            <div class="content-img">
+              <img src="investors-website.jpg" alt="" width='100%' height='auto'>
+            </div>
+            <div class="content-text">
+              <p>John's Silver </p>
+              <span>Investor Landing Page</span><br>
+              <span>Language: HTML| CSS| JS</span>
+            </div>
+          </a>
+
+          </div>
+        </div>
+        <div class="news-content-box" data-aos="fade-left">
+          <div class="content">
+            <a href="https://iftear-dc-desi9.github.io/shopper.github.io/"target="_blank"class="project-link">
+            <div class="content-img">
+              <img src="snappy-website.jpg" alt="" width='100%' height='auto'>
+            </div>
+            <div class="content-text">
+              <p>Snappy</p>
+              <span>Fashion Home Page</span><br>
+              <span>Language: HTML| CSS| BOOTSTRAP5| JS</span>
+            </div>
+          </a>
+
+          </div>
+        </div>
+        <div class="news-content-box" data-aos="fade-right">
+          <div class="content">
+            <a href="https://iftear-dc-desi9.github.io/next-system.github.io/"target="_blank"class="project-link">
+            <div class="content-img">
+              <img src="next-system-website.jpg" alt="" width='100%' height='auto'>
+            </div>
+            <div class="content-text">
+              <p>Next System</p>
+              <span>Internet Service Website</span><br>
+              <span>Language: HTML| CSS| BOOTSTRAP5| JS</span>
+            </div>
+          </a>
+
+          </div>
+        </div>
+
+      </article>
+    </section>
+
+    <div class="space"></div>
+    <section class="service">
+      <div class="sec-header">
+        <h6>Skills</h6>
+        <h1>Soft Skills</h1>
+      </div>
+      <article class="service-sec" id="services">
+        <div class="services-container">
+
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Communication.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Communication</h5>
+                <p></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-up">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Customer -service.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Customer Service</h2>
+                  <p></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Negotiation.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Negotiation</h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-up">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Adaptability.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Adaptablity</h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Creative-thinking.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Creative Thinking</h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-down">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Under-pressure.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Under Pressure Handling</h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </article>
+
+    </section>
+    <section class="service">
+      <div class="sec-header">
+        <h1>Tech Skills</h1>
+      </div>
+      <article class="service-sec" id="services">
+        <div class="services-container">
+
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Social-media-managent.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Social Media Platform</h5>
+                <p>Facebook| Instagram| YouTube</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-up">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="adobe-photoshop.png" alt="services5" class="service-image" height="auto">
+                <h5>Graphic Design</h2>
+                  <p>Adobe Express| Canva</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="coding.png" alt="services5" class="service-image" height="auto">
+                <h5>Web Design</h5>
+                <p>HTML| CSS| BOOTSTRAP| JS| JQ</p>
+              </div>
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-up">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Record-maintanence.jpg" alt="services5" class="service-image" height="auto">
+                <h5>MS Office</h5>
+                <p>MS Word| MS Excel</p>
+              </div>
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Adobe-xd.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Adobe Xd</h5>
+                <p>UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-down">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Seo-image.png" alt="services5" class="service-image" height="auto">
+                <h5>SEO</h5>
+                <p>Basic knowledge</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </article>
+      <div class="start-now">
+        <p>Are you interested in working with me? <a href="#about" class="details-link">Let's started now?</a> </p>
+      </div>
+    </section>
+    <div class="space"></div>
+    <section class="bio">
+      <div class="sec-header">
+        <h6>Biography</h6>
+        <h1>About Me</h1>
+      </div>
+      <div class="biography" id='about'>
+
+        <div class="my-image-box">
+          <div class="image-border">
+            <img src="IMG_20201220_194252_Bokeh (3).jpg" alt="my-image" width="100%" height="auto" class="my-image">
+          </div>
+        </div>
+        <div class="biography-box">
+
+          <div class="my-info">
+            <h4>An Experience & Consistant <span class="animate-text2"></span> </h4>
+            <p>I am an experienced website designer, digital marketer, data entry, and sales person. With a strong
+              portfolio in each field, I have been helping businesses and individuals around the world to achieve their
+              goals and objectives. My track record speaks for itself, with meaningful projects delivered on time and
+              within budget. I have a passion for marketing, technology, and customer service. With the ability to take
+              complex concepts and turn them into simple solutions, I am confident I can help your business succeed. I
+              am always looking to further my knowledge and stay up to date on the latest trends in the industry.</p>
+          </div>
+          <div class="my-contact-box">
+            <ul>
+              <li><i class="fa fa-gift"></i> <span class="details">Birthday: 21.04.1999</span>
+              </li>
+              <li><i class="fa fa-calendar"></i> <span class="details">Nationality: Bangladeshi</span>
+              </li>
+              <li><i class="fa fa-map-marker"></i> <span class="details">Location: <a href="#" class="details-link">Al
+                    Attiyah, Doha, Qatar</a></span>
+              </li>
+              <li><i class="fa fa-gamepad"></i> <span class="details">Interests: Play station,
+                  Movie</span>
+              </li>
+              <li><i class="fa fa-university"></i> <span class="details">Study: <a href="#"
+                    class="details-link">National University, Bangladesh</a></span>
+              </li>
+              <li><i class="fa fa-graduation-cap"></i> <span class="details">Degree: BBA Hons
+                  (2020-2023)</span>
+              </li>
+              <li><i class="fa fa-envelope"></i> <span class="details">Mail: <a href="#"
+                    class="details-link">iftearmishal911@gmail.com</a></span>
+              </li>
+              <li><i class="fa fa-phone"></i> <span class="details">Phone: <a href="#" class="details-link">+974
+                    30382016</a></span>
+              </li>
+            </ul>
+          </div>
+          <!--<button class="download-btn">
                         <a href="#" class="download-link">Download CV</a>
                     </button>-->
-                </div>
+        </div>
 
-            </div>
-        </section>
+      </div>
+    </section>
 
-        <div class="space"></div>
-        <section class='news'>
-            <div class="sec-header">
-              <h6>Experience History</h6>
-              <h1>Click to view full details</h1>
-            </div>
-        
-            <article class="news-container"id="news">
-        
-              <div class="news-content-box"data-aos="fade-left">
-                
-                <div class="content"id="btn1">
-                  <div class="content-img ">
-                    <img
-                      src="Springfield-logo.jpg"
-                      alt="" width='100%' height='auto'>
-                  </div>
-                  <div class="content-text">
-                    <p ><a href="#btn1">Springfield Travel & Tourism</a></p>
-                  <span>Sales Represntative | Apr 2022 - Sep 2023</span>
-                  </div>
-                  
-                </div>
-              </div>
-              <div class="news-content-box"data-aos="fade-right">
-                <div class="content"id="btn2">
-                  <div class="content-img">
-                    <img
-                      src="Emax-logo.jpg"
-                      alt="" width='100%' height='auto'>
-                  </div>
-                  <div class="content-text">
-                    <p><a href="#btn2">E-max Sports Bd</a></p>
-                  <span>Sales Executive | JUN 2021 - Mar 2022</span>
-                  </div>
-                  
-                </div>
-              </div>
-              <div class="news-content-box"data-aos="fade-left">
-                <div class="content"id="btn3">
-                  <div class="content-img">
-                    <img src="Freelance-logo.jpg" alt=""
-                      width='100%' height='auto'>
-                  </div>
-                  <div class="content-text">
-                     <p><a href="#btn3">Collaborative Freelance Services</a></p>
-                  <span>Web Design Internship | Dec 2020 - Apr 2021</span>
-                  </div>
-                 
-                </div>
-              </div>
-        
-              <div class="modal1" id="modal1">
-                <div class="modal-container">
-                  <span class='modal-close1'><i class="fa fa-times"></i></span>
-        
-                  <div class="modal-content">
-                    <div class="imgbox">
-                      <img src="Springfield-logo.jpg" alt=""width="100%"height="auto">
-                    </div>
-                    <div class="modal-details">
-                      <h2>Springfield Travel & Tourism</h2>
-                  <p>Sales Represntative | Apr 2022 - Sep 2023</p> 
-                </div>
-                  <div class="modal-text">
-                  <p>As a Sales Representative at Springfield Travel and Tourism, effectively
-                    promoted services, built loyal relationships with customers, and reviewed
-                    customer feedback to improve services. Provided customers with accurate
-                    information and communicated with management regularly. Resulting in
-                    increased customer satisfaction and a 10% rise in sales.</p>
-                  <br>
-                   </div>
-                   <div class="modal-share">
-                       <p>Share:</p>
-                       <i class="fa fa-facebook" ></i>
-                       <i class="fa fa-twitter" ></i>
-                       <i class="fa fa-behance" ></i>
-                       <i class="fa fa-dribbble" ></i>
-                   </div>
-                  </div>
-        
-                </div>
-              </div>
-              <div class="modal2" id="modal2">
-                <div class="modal-container">
-                  <span class="modal-close2"><i class="fa fa-times"></i></span>
-        
-                  <div class="modal-content">
-                    <div class="imgbox">
-                      <img src="Emax-logo.jpg" alt=""width="100%"height="auto">
-                    </div>
-                    <div class="modal-details">
-                      <h2>E-max Sports Bd</h2>
-                  <p>Sales Executive | JUN 2021 - Mar 2022</p>
-                </div>
-                <div class="modal-text">
-                  <p>Achieved success in managing the sales process with a situational control on a
-                    regular basis of client to client communication, negotiating to contribute to a
-                    satisfactory conduct and to maintain a specific quota for the employer.
-                    Expertise in sales and communication enabled building strong relationships
-                    with customers and maximizing sales with an average success rate of 98%.
-                    Contributed to the growth of the business with excellent customer service.</p><br>
-                    </div>
-                    <div class="modal-share">
-                        <p>Share:</p>
-                        <i class="fa fa-facebook" ></i>
-                        <i class="fa fa-twitter" ></i>
-                        <i class="fa fa-behance" ></i>
-                        <i class="fa fa-dribbble" ></i>
-                    </div>
-                  </div>
-        
-                </div>
-              </div>
-              <div class="modal3" id="modal3">
-                <div class="modal-container">
-                  <span class="modal-close3"><i class="fa fa-times"></i></span>
-                  <div class="modal-content">
-                    
-                    <div class="imgbox">
-                      <img src="Freelance-logo.jpg" alt=""width="100%"height="auto">
-                    </div>
-                    <div class="modal-details">
-                      <h2>Collaborative Freelance Services</h2>
-                  <p>Web Design Internship | Dec 2020 - Apr 2021</p>
-                </div>
-                  <div class="modal-text">
-                    <p>My collaborative freelance internship experience has enabled me to gain valuable skills in web design, social media post design, Canva design, and data entry. Through this experience, I have learned how to use a variety of digital tools to design webpages and create visually appealing social media posts. I have also enhanced my skills in Canva design, and data entry. By working with other professionals, I have developed the ability to think critically and creatively to solve problems. My collaborative freelance experience has enabled me to develop the skills and knowledge necessary for success as a web designer and social media post designer.</p>
-                    
-                    </div>
-                    <div class="modal-share">
-                        <p>Share:</p>
-                        <i class="fa fa-facebook" ></i>
-                        <i class="fa fa-twitter" ></i>
-                        <i class="fa fa-behance" ></i>
-                        <i class="fa fa-dribbble" ></i>
-                    </div>
-                  </div>
-        
-                </div>
-              </div>
-        
-            </article>
-          </section>
-          <div class="space"></div>
-          <section class="service">
-              <div class="sec-header">
-                  <h6>Courses</h6>
-                  <h1>Short-Courses Certification</h1>
-              </div>
-              <article class="service-sec"id="services">
-                  <div class="services-container">
-                      
-                      <div class="services-box"data-aos="fade-left">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="Coursera.jpg" alt="services5" class="service-image" height="auto">
-                              <h5>Digital Marketing</h5>
-                              <p>Coursera</p>
-                              </div>
-                              
-                          </div>
-                      </div>
-                      <div class="services-box"data-aos="fade-up">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="Edounix.jpg" alt="services5" class="service-image" height="auto">
-                              <h5>Graphic Design</h5>
-                              <p>Edounix</p>
-                              </div>
-                              
-                          </div>
-                      </div>
-                      <div class="services-box"data-aos="fade-left">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="Udemy.jpg" alt="services5" class="service-image" height="auto">
-                              <h5>Web Design</h5>
-                              <p>Udemy</p>
-                              </div>
-                          </div>
-                      </div>
-                     <!-- <div class="services-box"data-aos="fade-up">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="illustrator.png" alt="services5" class="service-image" height="auto">
-                              <h5>Adobe Illustrator</h5>
-                              <p>Web design is a similar process of creation, with the intention of presenting...</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="services-box"data-aos="fade-left">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="adobe-photoshop.png" alt="services5" class="service-image" height="auto">
-                              <h5>Adobe Photoshop</h5>
-                              <p>Web design is a similar process of creation, with the intention of presenting...</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="services-box"data-aos="fade-down">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="share.png" alt="services5" class="service-image" height="auto">
-                              <h5>Social Media</h5>
-                              <p>Web design is a similar process of creation, with the intention of presenting...</p>
-                              </div>
-                          </div>
-                      </div>-->
-  
-  
-                  </div>
-              </article>
-          </section>
+    <div class="space"></div>
+    <section class='news'>
+      <div class="sec-header">
+        <h6>Experience History</h6>
+        <h1>Click to view full details</h1>
+      </div>
 
-          <div class="space"></div>
-          <section class="service">
-              <div class="sec-header">
-                  <h1>Socially Connect With Me</h1>
-              </div>
-              <article class="service-sec"id="services">
-                  <div class="services-container">
-                      
-                      <div class="services-box"data-aos="fade-left">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="insta-page.jpg" alt="services5" class="service-image" height="auto">
-                              <h5>Instagram</h5>
-                              <p><a href="https://instagram.com/dc.desi9?igshid=YTQwZjQ0NmI0OA==">Visit Now</a></p>
-                              </div>
-                              
-                          </div>
-                      </div>
-                      <div class="services-box"data-aos="fade-up">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="Facebook-page.jpg" alt="services5" class="service-image" height="auto">
-                              <h5>Facebook</h5>
-                              <p><a href="https://www.facebook.com/dc.desig9?mibextid=ZbWKwL">Visit Now</a></p>
-                              </div>
-                              
-                          </div>
-                      </div>
-                      <div class="services-box"data-aos="fade-left">
-                          <div class="ser-details">
-                              <div class="ser-text">
-                                  <img src="Whatsapp.jpg" alt="services5" class="service-image" height="auto">
-                              <h5>Whatsapp</h5>
-                              <p><a href="https://wa.me/97430382016">Visit Now</a></p>
-                              </div>
-                          </div>
-                      </div>
-  
-                  </div>
-              </article>
-          </section>
+      <article class="news-container" id="news">
 
-        <div class="space"></div>
-        <section class="contact">
-            <div class="sec-header">
-              <h6>Contact</h6>
-              <h1>Get In Touch</h1>
+        <div class="news-content-box" data-aos="fade-left">
+
+          <div class="content" id="btn1">
+            <div class="content-img ">
+              <img src="Springfield-logo.jpg" alt="" width='100%' height='auto'>
             </div>
-            <div class="contact-container"id="contact">
-      
-            <div class="contact-box"data-aos="fade-right">
-            <div class="contact-intro">
-              <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+            <div class="content-text">
+              <h4>Springfield Travel & Tourism</h4>
+              <span>Sales Represntative | Apr 2022 - Sep 2023</span>
             </div>
-            <div class="contact-form">
-              <form action="#">
-                <input type="text" class="form-control"placeholder="Name"required>
-                <br>
-                <input type="email" class="form-control"placeholder="E-mail"required>
-                <br>
-                <textarea class="message"placeholder="Message" required></textarea>
-                <br>
-                <input type="submit" value="Send Message"class="submit-btn">
-                <br>
-              </form>
-            </div>
-          </div>
-          <div class="map-box"data-aos="fade-left">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3610.2558611916033!2d51.426106080604754!3d25.19459257435996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1701808115378!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="500" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
           </div>
         </div>
-          </section>
-          <div class="space"></div>
-    </main>
-    <footer class="end">
-        <div class="footer-container">
-          <p>© Copyright.  Designed by Iftear Hossain. All rights are reserved.
-          </p>
-          <a class="footer-icon">
-            <a href="https://www.facebook.com/dc.desig9?mibextid=ZbWKwL"class="details-link"><i class="fa fa-facebook" ></i></a>
-            <i class="fa fa-twitter" ></i>
-            <a href="https://instagram.com/dc.desi9?igshid=YTQwZjQ0NmI0OA=="class="details-link"><i class="fa fa-instagram"></i></a>
+        <div class="news-content-box" data-aos="fade-right">
+          <div class="content" id="btn2">
+            <div class="content-img">
+              <img src="Emax-logo.jpg" alt="" width='100%' height='auto'>
+            </div>
+            <div class="content-text">
+              <h4>E-max Sports Bd</h4>
+              <span>Sales Executive | JUN 2021 - Mar 2022</span>
+            </div>
+
+          </div>
         </div>
+        <div class="news-content-box" data-aos="fade-left">
+          <div class="content" id="btn3">
+            <div class="content-img">
+              <img src="Freelance-logo.jpg" alt="" width='100%' height='auto'>
+            </div>
+            <div class="content-text">
+              <h4>Collaborative Freelance Services</h4>
+              <span>Web Design Internship | Dec 2020 - Apr 2021</span>
+            </div>
+
+          </div>
         </div>
-    </footer>
-    <!--<script src="https://code.jquery.com/jquery-3.5.1.js"></script>-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="jquery.ripples-min.js"></script>
-    <script src="typed.js"></script>
-    <script src="project-jq.js"></script>
-    <script src="project.js"></script>
-    <script src="ending.js"></script>
+
+        <div class="modal1" id="modal1">
+          <div class="modal-container">
+            <span class='modal-close1'><i class="fa fa-times"></i></span>
+
+            <div class="modal-content">
+              <div class="imgbox">
+                <img src="Springfield-logo.jpg" alt="" width="100%" height="auto">
+              </div>
+              <div class="modal-details">
+                <h2>Springfield Travel & Tourism</h2>
+                <p>Sales Represntative | Apr 2022 - Sep 2023</p>
+              </div>
+              <div class="modal-text">
+                <p>As a Sales Representative at Springfield Travel and Tourism, effectively
+                  promoted services, built loyal relationships with customers, and reviewed
+                  customer feedback to improve services. Provided customers with accurate
+                  information and communicated with management regularly. Resulting in
+                  increased customer satisfaction and a 10% rise in sales.</p>
+                <br>
+              </div>
+              <div class="modal-share">
+                <p>Share:</p>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-behance"></i>
+                <i class="fa fa-dribbble"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal2" id="modal2">
+          <div class="modal-container">
+            <span class="modal-close2"><i class="fa fa-times"></i></span>
+
+            <div class="modal-content">
+              <div class="imgbox">
+                <img src="Emax-logo.jpg" alt="" width="100%" height="auto">
+              </div>
+              <div class="modal-details">
+                <h2>E-max Sports Bd</h2>
+                <p>Sales Executive | JUN 2021 - Mar 2022</p>
+              </div>
+              <div class="modal-text">
+                <p>Achieved success in managing the sales process with a situational control on a
+                  regular basis of client to client communication, negotiating to contribute to a
+                  satisfactory conduct and to maintain a specific quota for the employer.
+                  Expertise in sales and communication enabled building strong relationships
+                  with customers and maximizing sales with an average success rate of 98%.
+                  Contributed to the growth of the business with excellent customer service.</p><br>
+              </div>
+              <div class="modal-share">
+                <p>Share:</p>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-behance"></i>
+                <i class="fa fa-dribbble"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal3" id="modal3">
+          <div class="modal-container">
+            <span class="modal-close3"><i class="fa fa-times"></i></span>
+            <div class="modal-content">
+
+              <div class="imgbox">
+                <img src="Freelance-logo.jpg" alt="" width="100%" height="auto">
+              </div>
+              <div class="modal-details">
+                <h2>Collaborative Freelance Services</h2>
+                <p>Web Design Internship | Dec 2020 - Apr 2021</p>
+              </div>
+              <div class="modal-text">
+                <p>My collaborative freelance internship experience has enabled me to gain valuable skills in web
+                  design, social media post design, Canva design, and data entry. Through this experience, I have
+                  learned how to use a variety of digital tools to design webpages and create visually appealing social
+                  media posts. I have also enhanced my skills in Canva design, and data entry. By working with other
+                  professionals, I have developed the ability to think critically and creatively to solve problems. My
+                  collaborative freelance experience has enabled me to develop the skills and knowledge necessary for
+                  success as a web designer and social media post designer.</p>
+
+              </div>
+              <div class="modal-share">
+                <p>Share:</p>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-behance"></i>
+                <i class="fa fa-dribbble"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </article>
+    </section>
+    <div class="space"></div>
+    <section class="service">
+      <div class="sec-header">
+        <h6>Courses</h6>
+        <h1>Short-Courses Certification</h1>
+      </div>
+      <article class="service-sec" id="services">
+        <div class="services-container">
+
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Coursera.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Digital Marketing</h5>
+                <p>Coursera</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-up">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Edounix.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Graphic Design</h5>
+                <p>Edounix</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Udemy.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Web Design</h5>
+                <p>Udemy</p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </article>
+    </section>
+
+    <div class="space"></div>
+    <section class="service">
+      <div class="sec-header">
+        <h1>Socially Connect With Me</h1>
+      </div>
+      <article class="service-sec" id="services">
+        <div class="services-container">
+
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="insta-page.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Instagram</h5>
+                <p><a href="https://instagram.com/dc.desi9?igshid=YTQwZjQ0NmI0OA=="target="_blank">Visit Now</a></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-up">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Facebook-page.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Facebook</h5>
+                <p><a href="https://www.facebook.com/dc.desig9?mibextid=ZbWKwL"target="_blank">Visit Now</a></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="services-box" data-aos="fade-left">
+            <div class="ser-details">
+              <div class="ser-text">
+                <img src="Whatsapp.jpg" alt="services5" class="service-image" height="auto">
+                <h5>Whatsapp</h5>
+                <p><a href="https://wa.me/+97430382016"target="_blank">Visit Now</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+    </section>
+
+    <div class="space"></div>
+    <section class="contact">
+      <div class="sec-header">
+        <h6>Contact</h6>
+        <h1>Get In Touch</h1>
+      </div>
+      <div class="contact-container" id="contact">
+
+        <div class="contact-box" data-aos="fade-right">
+          <div class="contact-intro">
+            <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET,
+              Monday through Friday</p>
+          </div>
+          <div class="contact-form">
+            <form action="#">
+              <input type="text" class="form-control" placeholder="Name" required>
+              <br>
+              <input type="email" class="form-control" placeholder="E-mail" required>
+              <br>
+              <textarea class="message" placeholder="Message" required></textarea>
+              <br>
+              <input type="submit" value="Send Message" class="submit-btn">
+              <br>
+            </form>
+          </div>
+        </div>
+        <div class="map-box" data-aos="fade-left">
+          <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3610.2558611916033!2d51.426106080604754!3d25.19459257435996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1701808115378!5m2!1sen!2sbd"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" width="500" height="380" style="border:0;" allowfullscreen=""
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    <div class="space"></div>
+  </main>
+  <footer class="end">
+    <div class="footer-container">
+      <p>© Copyright. Designed by Iftear Hossain. All rights are reserved.
+      </p>
+      <a class="footer-icon">
+        <a href="https://www.facebook.com/dc.desig9?mibextid=ZbWKwL" class="details-link"><i
+            class="fa fa-facebook"></i></a>
+        <i class="fa fa-twitter"></i>
+        <a href="https://instagram.com/dc.desi9?igshid=YTQwZjQ0NmI0OA==" class="details-link"><i
+            class="fa fa-instagram"></i></a>
+    </div>
+    </div>
+  </footer>
+  <!--<script src="https://code.jquery.com/jquery-3.5.1.js"></script>-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="jquery.ripples-min.js"></script>
+  <script src="typed.js"></script>
+  <script src="project-jq.js"></script>
+  <script src="project.js"></script>
+  <script src="ending.js"></script>
 </body>
 
 </html>
